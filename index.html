@@ -59,24 +59,23 @@
           <h3>工作经历</h3>
           <hr />
           <h4>三星电子(中国)研发中心（2008.06 ～）项目经理, 资深软件工程师</h4>
-          <p><strong>2013/01 &ndash; now: 分布式社交媒体分析平台 (HR: 10, Project Manager, Python, Java)</strong></p>
-          <p>完善和维护分布式爬取平台, 并支持在多个事业部的deployment</p>
-          <p>提供Fast ETL平台(基于Twitter Storm)</p>
-          <p>TV领域Social排名和推荐服务在三星数字电视上的商品化推动</p>
-          <p><strong>2012/01 &ndash; 2012/12: 社交媒体挖掘平台 (HR: 10, Project Manager, Python, Java)</strong></p>
-          <p>提供社交媒体挖掘的分布式平台, 将2011年的服务扩展到多领域和多语言</p>
-          <p>提供多维度的电视节目的排名, 观众的情感和观众profile分析</p>
-          <p>提供通用分布式爬取平台(基于Apache Kafka)</p>
-          <p><strong>2011/01 &ndash; 2011/12：实时社交媒体挖掘 (HR: 5, Tech Leader, Python)</strong></p>
-          <p>目的: 开发可用于三星电视的实时social media service</p>
-          <p>&nbsp; - 关注TV领域的实时social服务的实现 (面对三星数字电视事业部)<br />&nbsp; - 实时电视节目的排名(根据Tweets热度)和推荐(根据电视播放时间和热度)<br />&nbsp; - 电视节目相关的社交媒体的聚合, 包括文章, 博客, 图片, 和视频等(基于core content extraction技术)</p>
-          <p><strong>2010/01 -- 2010/12：实时Web分析和搜索 (HR: 8, Tech Leader, Python)</strong></p>
-          <p>目的: 爬取和索引twitter数据, 提供基于地区的(比如, 纽约)热门主题侦测</p>
-          <p>&nbsp; - 实时Twitter爬取, 基于Streaming API<br />&nbsp; - 实时web内容索引(基于Lucene API)和提供实时搜索服务<br />&nbsp; - 实时tweets分析和基于地点的热门主题侦测(基于NLP技术)以及可视化(Google Map)</p>
           <p><strong>2009/01 -- 2009/12：博客模板侦测和内容分类 (HR: 8, Tech Leader, Python)</strong></p>
           <p>目的: 侦测博客的模板, 提取博客内容, 并对内容进行分类</p>
           <p>&nbsp; - 针对博客的特殊性, 模板格式较简单, 且具有RSS, 开发基于RSS的博客模板侦测技术<br />&nbsp; - 基于SVM算法的博客内容分类技术</p>
-          <p><strong>2008/06 &ndash; 2008/12: 基于Mozilla平台的web应用开发 (HR:15, Developer, JavaScript)</strong></p>
+          <p><strong>2010/01 -- 2010/12：实时Web分析和搜索 (HR: 8, Tech Leader, Python)</strong></p>
+          <p>目的: 爬取和索引twitter数据, 提供基于地区的(比如, 纽约)热门主题侦测</p>
+          <p>&nbsp; - 实时Twitter爬取, 基于Streaming API<br />&nbsp; - 实时web内容索引(基于Lucene API)和提供实时搜索服务<br />&nbsp; - 实时tweets分析和基于地点的热门主题侦测(基于NLP技术)以及可视化(Google Map)</p>
+          <p><strong>2011/01 &ndash; 2011/12：实时社交媒体挖掘 (HR: 5, Tech Leader, Python)</strong></p>
+          <p>目的: 实现基于social web的TV节目的排名和节目相关social media的聚合</p>
+          <p>&nbsp; - 关注TV领域的实时social服务的实现 (面对三星数字电视事业部)<br />&nbsp; - 实时电视节目的排名(根据相关Tweets热度)和推荐(根据电视播放时间和热度)<br />&nbsp; - 电视节目相关的社交媒体的聚合, 包括文章, 博客, 图片, 和视频等(core content extraction技术)</p>
+          <p><strong>2012/01 &ndash; 2012/12: 社交媒体分析平台 (HR: 10, Project Manager, Python, Java)</strong></p>
+          <p>目的: 提供商用化的, 支持多领域(TV节目, 音乐, 电影)和多语言(英,韩)的social media服务</p>
+          <p>&nbsp; - 以Kafka平台为中心的分布式service架构重构, 解耦合以便于领域和语言的扩展<br />&nbsp; - 基于Web的管理和监控系统, 领域元数据管理, 收集和分析进度和集群, 分析结果查询<br />&nbsp; - 提供多维度的电视节目的排名, 观众的情感和观众profile分析</p>
+          <p><strong>2013/01 &ndash; now: 分布式数据分析平台 (HR: 10, Project Manager, Python, Java)</strong></p>
+          <p>目的: 基于在数据爬取和分析的经验和需求, 提供通用的爬取和分析平台</p>
+          <p>&nbsp; - 分布式爬取平台 (基于Kafka平台)<br />&nbsp;&nbsp;&nbsp; 问题, 大量各种爬取数据的request, 各个team重复开发和部署, 开发和计算资源浪费 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 分布式crawler部署, 管理和监控比较麻烦, kafka平台本身缺乏类似feature<br />&nbsp;&nbsp;&nbsp; 方案, 定义抽象crawler模板, 提供热门网站的crawlers代码, 简化crawler开发<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 基于web的管理和监控系统 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - crawler代码和爬取集群管理系统, 便于代码和资源共享<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 一键式的分布式crawler任务部署和启动, 支持任务配置管理<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 集群和crawler的状态和进度监控和支持log浏览</p>
+          <p>&nbsp; - Fast ETL平台<br />&nbsp;&nbsp;&nbsp; 问题, 三星现有的ETL是基于Hadoop, 需要low-latency的ETL方案<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 不同的处理平台需要重写处理逻辑, storm, spark, hadoop...<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 需要Web图形化的workflow创建和配置, 简化编码<br />&nbsp;&nbsp;&nbsp; 方案, 定义抽象ETL API, input, process, output, 并提供常用的ETL模块<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XML-based workflow模型, 可以匹配到任意支持DAG的计算平台<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当前提供Storm engine, 计划提供Spark, Tez engine<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 提供web的图形化workflow designer, Job配置和启动, Job监控和管理</p>
+
           <p>&nbsp;</p>
           <h4>摩托罗拉电子有限公司南京软件研发中心（2005.04～2008.06）</h4>
           <p><strong>软件工程师, 手机应用和平台开发(C, C++)<br /></strong></p>
