@@ -40,7 +40,8 @@
           <hr />
           <p>- 10年以上软件开发设计经验(Python, Clojure, Java, Scala, C/C++)</p>
           <p>- 8年以上数据技术相关的架构和团队管理经验</p>
-          <p>- 专注于数据领域的技术研发，涵盖数据应用开发，数据中间件队列，实时数据分析（Storm，Spark，Flink等），大数据平台，数据库（关系型，NoSQL），机器学习，乃至深度学习，都有一定深度的研究。尤其在数据实时分析和数据应用上有多年的研发和实际产品经验，应对数百万级以上QPS和多次双十一数倍的流量洪峰。</p>
+          <p>- 专注于数据领域的技术研发，涵盖数据应用开发，数据中间件队列，实时数据分析（Storm，Spark，Flink等），大数据平台，数据库（关系型，NoSQL），机器学习，乃至深度学习，都有一定深度的研究。</p>
+          <p>- 尤其在数据实时分析和数据应用上有多年的研发和实际产品经验，应对数百万级以上QPS和多次双十一数倍的流量洪峰。</p>
           <p>- 在该领域10以上的技术积累，踏实做技术，不积跬步无以至千里，实证可参考技术博客，见上。</p>
           <p>- 在该领域有一定的技术成果输出，并且近年在数据库顶会发表多篇顶会论文。</p>
           <p>- 擅长并且希望持续的带领团队，在该领域进行先行性的技术研发工作。</p>
@@ -49,37 +50,22 @@
           <h3>工作经历</h3>
           <hr />
           <h4>三星电子(中国)研发中心（2008.06 ～2014.04）</h4>
-          <p><strong>TL（5~10人团队），社交媒体的内容爬取，ETL，分类，内容抽取和Entity识别，内容推荐</strong></p>
-          <p>&nbsp; 基于Storm和Kafka实时组件，构建采集，ETL，分析，实时推荐的平台；针对Twitter实时内容，对于实时电视节目进行热度排名和推荐，节目相关各种资源（博客, 图片, 和视频）推荐，并在三星数字电视事业部的产品中完成落地和上线。</p>
-          <p>&nbsp;&nbsp;&nbsp; - 针对博客的特殊性, 模板格式较简单, 且具有RSS, 开发基于RSS的博客模板侦测技术<br />&nbsp;&nbsp;&nbsp; - 基于SVM算法的博客内容分类技术</p>
-          <p><strong>2010/01 -- 2010/12：实时Web分析和搜索 (HR: 8, Tech Leader, Python)</strong></p>
-          <p>&nbsp; 目的: 爬取和索引twitter数据, 提供基于地区的(比如, 纽约)热门主题侦测</p>
-          <p>&nbsp;&nbsp;&nbsp; - 实时Twitter爬取, 基于Streaming API<br />&nbsp;&nbsp;&nbsp; - 实时web内容索引(基于Lucene API)和提供实时搜索服务<br />&nbsp;&nbsp;&nbsp; - 实时tweets分析和基于地点的热门主题侦测(基于NLP技术)以及可视化(Google Map)</p>
-          <p><strong>2011/01 &ndash; 2011/12：实时社交媒体挖掘 (HR: 5, Tech Leader, Python)</strong></p>
-          <p>&nbsp; 目的: 实现基于social web的TV节目的排名和节目相关social media的聚合</p>
-          <p>&nbsp;&nbsp;&nbsp; - 关注TV领域的实时social服务的实现 (面对三星数字电视事业部)<br />&nbsp;&nbsp;&nbsp; - 实时电视节目的排名(根据相关Tweets热度)和推荐(根据电视播放时间和热度)<br />&nbsp;&nbsp;&nbsp; - 电视节目相关的社交媒体的聚合, 包括文章, 博客, 图片, 和视频等<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 基于decruft进行core content extraction, 提升准确率至90%</p>
-          <p><strong>2012/01 &ndash; 2012/12: 社交媒体分析平台 (HR: 10, Project Manager, Python, Java)</strong></p>
-          <p>&nbsp; 目的: 提供商用化的, 支持多领域(TV节目, 音乐, 电影)和多语言(英,韩)的social media服务</p>
-          <p>&nbsp;&nbsp;&nbsp; - 以Kafka平台为中心的分布式service架构重构, 解耦合以便于领域和语言的扩展<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - kafka, MongoDB, Redis, Node.js<br />&nbsp;&nbsp;&nbsp; - 基于Web的管理和监控系统, 领域元数据管理, 任务进度和集群状况监控, 分析结果查询<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Munin, Ganglia, OpenTSDB<br />&nbsp;&nbsp;&nbsp; - 提供多维度的电视节目的排名, 基于观众的情感和观众profile分析</p>
-          <p><strong>2013/01 &ndash; now: 分布式数据分析平台 (HR: 10, Project Manager, Python, Java)</strong></p>
-          <p>&nbsp; 目的: 基于在数据爬取和分析的经验和需求, 提供通用的爬取和分析平台</p>
-          <p>&nbsp; - 分布式爬取平台 (基于Kafka平台)<br />&nbsp;&nbsp;&nbsp; 问题:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 大量爬取web数据的需求, 各个team重复开发和部署, 开发和计算资源浪费 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 分布式crawler部署, 管理和监控比较麻烦, kafka平台本身缺乏类似功能<br />&nbsp;&nbsp;&nbsp; 方案:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 定义抽象crawler模板, 提供热门网站的crawler代码, 以简化crawler开发<br />&nbsp; &nbsp; &nbsp; &nbsp; - 基于web的管理和监控系统 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - crawler模板代码和爬取集群管理系统, 便于代码和资源共享<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 一键式的分布式crawler任务部署和启动, 支持任务配置管理<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 集群和crawler的状态和进度监控和支持log浏览</p>
-          <p>&nbsp; - Fast ETL平台<br />&nbsp;&nbsp;&nbsp; 问题:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 三星现有的ETL是基于Hadoop, 需要low-latency的ETL方案<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 不同的处理平台需要重写处理逻辑, storm, spark, hadoop...<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 需要Web图形化的workflow创建和配置, 简化编码<br />&nbsp;&nbsp;&nbsp; 方案:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 定义抽象ETL API, input, process, output, 并提供常用的ETL模块<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - XML-based workflow模型, 可以匹配到任意支持DAG的计算平台<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当前支持Storm engine, 计划支持Spark, Tez<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 提供web的图形化workflow designer, Job配置和启动, Job监控和管理</p>          
+          <p>TL（5~10人团队），社交媒体的内容爬取，ETL，分类，内容抽取和Entity识别，内容推荐</p>
+          <p>基于Storm和Kafka实时组件，构建采集，ETL，分析，实时推荐的平台；针对Twitter实时内容，对于实时电视节目进行热度排名和推荐，节目相关各种资源（博客, 图片, 和视频）推荐，并在三星数字电视事业部的产品中完成落地和上线。</p>
           
-          <h4>摩托罗拉电子有限公司南京软件研发中心（2005.04～2008.06）<br /><strong>软件工程师, 手机应用和平台开发(C, C++)<br /></strong></h4>
-          <p>2005/04 -- 2006/02：Motorola Falcon平台Iden 手机产品开发<br />&nbsp; - 嵌入式数据库的开发, 查询性能优化</p>
-          <p>2006/03 -- 2007/03：EZ2平台,Adaptive engine开发<br />&nbsp; - Adaptive engine用于收集手机用户在各种上下文(context-aware)的行为模式数据<br />&nbsp;&nbsp;&nbsp; 采用贝叶斯条件概率对手机用户的行为进行预测<br />&nbsp; - 负责C++版本engine开发, 以及demo application开发</p>
-          <p>2007/03 -- 2007/08：基于Declaration UI系统的应用开发和移植(LJ平台)</p>
-          <p>2007/08 -- 2008/04：Windows Mobile手机产品Sebring开发<br />&nbsp; - 负责service driver 层的开发和调试, 包括RIL driver, MUX, IPC driver层</p>
+          <h4>摩托罗拉电子有限公司南京软件研发中心（2005.04～2008.06）</h4>
+          <p>软件工程师，包含手机应用开发，嵌入式数据库开发，用户行为预测模型开发</p>
+          
           <p>&nbsp;</p>
           <h3>教育经历</h3>
           <hr />
           <p>2002/09 &ndash; 2005/04： 东南大学 | 计算机科学与工程系 | 计算机应用专业 | 硕士</p>
           <p>1998/09 &ndash; 2002/06： 海军工程大学 | 计算机应用专业 | 本科</p>
+          
           <p>&nbsp;</p>
-          <h3>荣誉</h3>
+          <h3>论文及其他</h3>
           <hr />
-          <p>- 2007年第四届摩托罗拉中国科技研讨会发表&rdquo;Push to X 数据库的查询性能优化&rdquo;</p>
+          <p>- (2021 SIGMOD). LogStore: A Cloud-Native and Multi-Tenant Log Database. In Proceedings of the 2021 International Conference on Management of Data (pp. 2464-2476).</p>
           <p>- 2007年专利, CML05725CAL (48928), Mobile Tag Networking</p>
           <p>- 2010年专利, An automatic adaptive webpage template generation method based on RSS information, August 2010.</p>
           <p>- 2010年论文, Description logic rule based semantic web service composition method, Journal of Computational Information Systems.</p>
